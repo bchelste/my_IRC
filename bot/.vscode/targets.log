@@ -1,0 +1,861 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 31 19:34:47 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lbenedar/Рабочий стол/42_projects/ft_irc/bot
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 27)
+RM = rm -rf
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:47102
+# makefile (from 'Makefile', line 24)
+CFLAGS = -Wextra -Werror -Wall -pthread -std=c++98 $(INC)
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = lbenedar
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/97/usr/share/code/code
+# makefile (from 'Makefile', line 20)
+OBJS = $(SRCS:.cpp=.o)
+# environment
+MANAGERPID = 1521
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/lbenedar
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/lbenedar/.local/bin:/home/lbenedar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/lbenedar:@/tmp/.ICE-unix/1750,unix/lbenedar:/tmp/.ICE-unix/1750
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/lbenedar/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+LC_ALL = C
+# environment
+SNAP = /snap/code/97
+# environment
+SNAP_VERSION = c3511e6c
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9e3087edbacb4f9c8d7c5b1c034c757e
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4007
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/lbenedar/Рабочий стол/42_projects/ft_irc/bot
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1705
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 14)
+INC_DIR = includes
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from 'Makefile', line 22)
+HEAD = $(INC_DIR)/Bot.hpp $(INC_DIR)/Utils.hpp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/lbenedar
+# makefile (from 'Makefile', line 25)
+OPTFLAGS = -O0
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lbenedar/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = lbenedar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = is9G27iOiUzIv0gXDqEElIvTzQLDkjwGZ5A_y18ZNrJJW8YxiMHB
+# environment
+SNAP_USER_COMMON = /home/lbenedar/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 1
+# environment
+SNAP_REAL_HOME = /home/lbenedar
+# makefile (from 'Makefile', line 26)
+MAKE = make
+# default
+MAKECMDGOALS := infobot
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 17)
+SRCS = $(SRC_DIR)/main.cpp $(SRC_DIR)/Bot.cpp $(SRC_DIR)/Utils.cpp
+# environment
+SNAP_USER_DATA = /home/lbenedar/snap/code/97
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 16)
+CC = clang++
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2f66fbad-981a-4d64-8d5d-1efb83218ca8.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = lbenedar
+# environment
+SNAP_REVISION = 97
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 13)
+NAME = infobot
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 21)
+INC = -I$(INC_DIR)
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-80f8384c-1.67.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrRw -j4 --jobserver-auth=3,4
+# environment
+MFLAGS = -pqrRw -j4 --jobserver-auth=3,4
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = is9G27iOiUzIv0gXDqEElIvTzQLDkjwGZ5A_y18ZNrJJW8YxiMHB
+# makefile (from 'Makefile', line 15)
+SRC_DIR = srcs
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4054
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=19/177=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+ 
+
+# . (device 66310, inode 278535): 7 files, no impossibilities.
+# includes (device 66310, inode 278603): 2 files, no impossibilities so far.
+# srcs (device 66310, inode 278601): 5 files, no impossibilities so far.
+
+# 14 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.o: %.cpp includes/Bot.hpp includes/Utils.hpp
+#  recipe to execute (from 'Makefile', line 46):
+	$(CC) $(CFLAGS) $(OPTFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	@$(MAKE) $(NAME) -j 4
+
+.PHONY: all bonus clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/Bot.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+infobot: srcs/main.o srcs/Bot.o srcs/Utils.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+#  recipe to execute (from 'Makefile', line 33):
+	$(CC) $(CFLAGS) $(OPTFLAGS) $(OBJS) -o $(NAME)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 15:07:38.630600842
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+includes/Utils.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 13:24:22.066670976
+#  File has been updated.
+#  Successfully updated.
+
+bonus: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	$(RM) $(NAME)
+
+# Not a target:
+srcs/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 19:14:24.613640014
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	$(RM) $(OBJS)
+
+# Not a target:
+includes/Bot.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 19:11:05.543387622
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+srcs/Utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srcs/main.o: srcs/main.cpp includes/Bot.hpp includes/Utils.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'srcs/main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := srcs/main.o
+# automatic
+# % := 
+# automatic
+# * := srcs/main
+# automatic
+# + := srcs/main.cpp includes/Bot.hpp includes/Utils.hpp
+# automatic
+# | := 
+# automatic
+# < := srcs/main.cpp
+# automatic
+# ^ := srcs/main.cpp includes/Bot.hpp includes/Utils.hpp
+# automatic
+# ? := srcs/main.cpp includes/Bot.hpp includes/Utils.hpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/18=6%
+#  recipe to execute (from 'Makefile', line 46):
+	$(CC) $(CFLAGS) $(OPTFLAGS) -c $< -o $@
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/46=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 32 / storage = 287 B / avg = 8 B
+# current buf: size = 8162 B / used = 287 B / count = 32 / avg = 8 B
+
+# strcache performance: lookups = 62 / hit rate = 48%
+# hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=2/62=3%
+# Finished Make data base on Tue May 31 19:34:47 2022
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 31 19:34:47 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lbenedar/Рабочий стол/42_projects/ft_irc/bot
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 27)
+RM = rm -rf
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:47102
+# makefile (from 'Makefile', line 24)
+CFLAGS = -Wextra -Werror -Wall -pthread -std=c++98 $(INC)
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = lbenedar
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/97/usr/share/code/code
+# makefile (from 'Makefile', line 20)
+OBJS = $(SRCS:.cpp=.o)
+# environment
+MANAGERPID = 1521
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/lbenedar
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/lbenedar/.local/bin:/home/lbenedar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/lbenedar:@/tmp/.ICE-unix/1750,unix/lbenedar:/tmp/.ICE-unix/1750
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/lbenedar/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/97
+# environment
+SNAP_VERSION = c3511e6c
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9e3087edbacb4f9c8d7c5b1c034c757e
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4007
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/lbenedar/Рабочий стол/42_projects/ft_irc/bot
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1705
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 14)
+ 
+INC_DIR = includes
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from 'Makefile', line 22)
+HEAD = $(INC_DIR)/Bot.hpp $(INC_DIR)/Utils.hpp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/lbenedar
+# makefile (from 'Makefile', line 25)
+OPTFLAGS = -O0
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lbenedar/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = lbenedar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = is9G27iOiUzIv0gXDqEElIvTzQLDkjwGZ5A_y18ZNrJJW8YxiMHB
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/lbenedar/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/lbenedar
+# makefile (from 'Makefile', line 26)
+MAKE = make
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 17)
+SRCS = $(SRC_DIR)/main.cpp $(SRC_DIR)/Bot.cpp $(SRC_DIR)/Utils.cpp
+# environment
+SNAP_USER_DATA = /home/lbenedar/snap/code/97
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 16)
+CC = clang++
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2f66fbad-981a-4d64-8d5d-1efb83218ca8.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = lbenedar
+# environment
+SNAP_REVISION = 97
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 13)
+NAME = infobot
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 21)
+INC = -I$(INC_DIR)
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-80f8384c-1.67.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = is9G27iOiUzIv0gXDqEElIvTzQLDkjwGZ5A_y18ZNrJJW8YxiMHB
+# makefile (from 'Makefile', line 15)
+SRC_DIR = srcs
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4054
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=20/171=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 278535): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cpp includes/Bot.hpp includes/Utils.hpp
+#  recipe to execute (from 'Makefile', line 46):
+	$(CC) $(CFLAGS) $(OPTFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  recipe to execute (from 'Makefile', line 30):
+	@$(MAKE) $(NAME) -j 4
+
+.PHONY: all bonus clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/Bot.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+infobot: srcs/main.o srcs/Bot.o srcs/Utils.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	$(CC) $(CFLAGS) $(OPTFLAGS) $(OBJS) -o $(NAME)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 15:07:38.630600842
+#  File has been updated.
+#  Successfully updated.
+
+bonus: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	$(RM) $(NAME)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	$(RM) $(OBJS)
+
+# Not a target:
+srcs/Utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/38=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 218 B / avg = 8 B
+# current buf: size = 8162 B / used = 218 B / count = 25 / avg = 8 B
+
+# strcache performance: lookups = 47 / hit rate = 46%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Tue May 31 19:34:47 2022
+
+ 
